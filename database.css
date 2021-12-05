@@ -21,6 +21,7 @@ main div {
   margin: 0px;
   width: 100%;
   border: 2px solid #64e3df;
+  box-sizing: content-box;
   flex: 1 1 auto;
   display: flex;
   font-family: "Ubuntu", sans-serif;
@@ -59,6 +60,8 @@ pre {
   position: absolute;
   display: flex;
   font-family: "IBM Plex Mono", monospace;
+  user-select: none;
+  font-size: calc(min(82vw, 140vh) / 88);
 }
 
 pre p {
